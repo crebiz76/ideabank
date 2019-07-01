@@ -23,6 +23,7 @@ enum tcp_ca_state {
 #define TCPF_CA_Loss    (1<<TCP_CA_Loss)
 };
 ```
+
 ```mermaid
 sequenceDiagram
 Alice ->> Bob: Hello Bob, how are you?
@@ -33,4 +34,12 @@ Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text d
 
 Bob-->Alice: Checking with John...
 Alice->John: Yes... John, how are you?
+```
+
+```mermaid
+graph TD;
+        A --> B;
+        B --> C;
+        C --> D;
+        A --> D;
 ```
