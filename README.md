@@ -9,7 +9,7 @@
 # Github Desktop 사용 
 # Rename ToBeNew
 
-'''c
+'''
 enum tcp_ca_state {
         TCP_CA_Open = 0,
 #define TCPF_CA_Open    (1<<TCP_CA_Open)
