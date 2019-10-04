@@ -14,10 +14,22 @@
         font-size: 80px;
         color: blue;
       }
+	  #myCanvas{
+		width: 200px;
+		height: 100px;
+		border: 1px dotted red;
+	  }
     </style>
     <script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
   </head>
   <body>
+	<canvas id ="myCanvas"></canvas>
+	<script>
+		var canvas = document.getElementById("myCanvas");
+		var context = canvas.getContext("2d");
+		context.fillStyle = "green";
+		context.fillRect(0,0,100,50);
+	</script>
     <input type="button" value="Greeting" onclick="alert('Hello, World')">
     <input type="text" onchange="alert('changed')">
     <input type="text" onkeydown="alert('key down')">
@@ -26,8 +38,15 @@
         console.log('\u{1F435}');
         document.write('\u{1F435}');
     </script>
+	<h1><i class="far fa-file-excel"></i></h1>
     <h1><i class="fas fa-camera-retro"></i></h1>
-    <h1 class="a"><i class="fas fa-camera-retro"></i></h1>
+	<h1><i class="fas fa-calculator"></i></h1>	
+	<h1><i class="far fa-save"></i></h1>
+	<h1><i class="fas fa-camera-retro"></i></h1>
+	<h1><i class="far fa-question-circle"></i></h1>
+	<h1><i class="fas fa-spinner"></i></h1>
+	
+	<h1 class="a"><i class="fas fa-camera-retro"></i></h1>
     <h1 class="b"><a href = "https://crebiz76.github.io/web"><i class="far fa-question-circle"></i></a></h1>
   </body>
 </html>
